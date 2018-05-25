@@ -1,0 +1,55 @@
+/*
+Dark
+#46211A crevice
+  #693D3D cloud shadow
+  #BA5536 desert
+  #A43820 redclay
+Playful green & blues
+  #324851 blue pine
+  #86AC41 new grass
+  #34675C reflection
+  #7DA3A1 mist
+Fresh and Energetic
+  #4CB5F5 blue sky
+  #B7B8B6 granite
+  #34675C pine
+  #B3C100 fields
+
+Icy blue and Grays
+ #F1F1F2 overcast
+ #BCBABE warm gray
+ #A1D6E2 ice
+ #1995AD glacier blue
+*/
+
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Crimson Text', serif;
+
+    /*font-family: 'Lobster', cursive;*/
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: white;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,
+        rgba(247, 236, 154, 0.8),
+        rgba(18, 27, 112, 0.8) ), 
+     url(../img/Cidemo.jpg);
+    background-size: cover; 
+    background-position:top;
+    clip-path:polygon(0 0, 100% 0, 100% 75vh, 0 50%)
+}
+
+
+

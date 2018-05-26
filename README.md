@@ -1,2 +1,2 @@
 # PortfolioPage
-ROGUE X Creative Designs Web and Game Development Services
+ROGUE X Creative Designs 
